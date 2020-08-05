@@ -1,9 +1,9 @@
-import { getBuildReportObject, reportBuilds } from "./lib/format-build";
-import { AppCommand, CommandResult, ErrorCodes, failure, help, success } from "../../../util/commandline";
-import { AppCenterClient, models, clientRequest, ClientResponse } from "../../../util/apis";
-import { out } from "../../../util/interaction";
-import { inspect } from "util";
 import * as _ from "lodash";
+import { inspect } from "util";
+import { AppCenterClient, clientRequest, ClientResponse, models } from "../../../util/apis";
+import { AppCommand, CommandResult, ErrorCodes, failure, help, success } from "../../../util/commandline";
+import { out } from "../../../util/interaction";
+import { getBuildReportObject, reportBuilds } from "./lib/format-build";
 
 const debug = require("debug")("appcenter-cli:commands:build:branches:list");
 

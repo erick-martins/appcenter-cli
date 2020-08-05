@@ -1,0 +1,1 @@
+{"trigger":"manual","testsEnabled":false,"badgeIsEnabled":true,"signed":true,"toolsets":{"javascript":{"packageJsonPath":"package.json","runTests":false},"android":{"gradleWrapperPath":"android/gradlew","module":"app","buildVariant":"releaseStaging","runTests":false,"runLint":false,"isRoot":false,"automaticSigning":true}},"id":2}

@@ -23,6 +23,7 @@ class Params {
    * @property {boolean} [badgeIsEnabled]
    * @property {boolean} [signed]
    * @property {string} [cloneFromBranch] A configured branch name to clone
+   * @property {array} [environmentVariables] The branch build configuration environment variables
    * from. If provided, all other parameters will be ignored. Only supported in
    * POST requests.
    * @property {object} [toolsets] The branch build configuration for each
@@ -187,6 +188,13 @@ class Params {
             type: {
               name: 'Composite',
               className: 'ParamsToolsets'
+            }
+          },
+          environmentVariables: {
+            required: false,
+            serializedName: 'environmentVariables',
+            type: {
+              name: 'any'
             }
           },
           artifactVersioning: {

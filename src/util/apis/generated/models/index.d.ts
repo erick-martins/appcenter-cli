@@ -6,7 +6,6 @@
  * Changes may cause incorrect behavior and will be lost if the code is regenerated.
  */
 
-import * as moment from "moment";
 
 export interface GetInAppUpdateTokenResponse {
   /**
@@ -7432,6 +7431,20 @@ export interface BranchConfigurationArtifactVersioningModel {
    * Possible values include: 'buildId', 'timestamp'
   */
   buildNumberFormat?: string;
+}
+
+/**
+ * The branch configuration environment variable
+*/
+export interface BranchConfigurationEnvironmentVariable {
+  /**
+   * Variable name
+  */
+  name: string;
+  /**
+   * Variable Value
+  */
+  value: string;
 }
 
 /**

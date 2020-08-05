@@ -394,6 +394,7 @@ exports.BranchConfigurationToolsetsXamarinModel = require('./branchConfiguration
 exports.BranchConfigurationToolsetsAndroidModel = require('./branchConfigurationToolsetsAndroidModel');
 exports.BranchConfigurationToolsetsModel = require('./branchConfigurationToolsetsModel');
 exports.BranchConfigurationArtifactVersioningModel = require('./branchConfigurationArtifactVersioningModel');
+exports.BranchConfigurationEnvironmentVariable = require('./branchConfigurationEnvironmentVariable')
 exports.XcodeBranchConfigurationPropertiesAppExtensionProvisioningProfileFilesItem = require('./xcodeBranchConfigurationPropertiesAppExtensionProvisioningProfileFilesItem');
 exports.XcodeBranchConfigurationProperties = require('./xcodeBranchConfigurationProperties');
 exports.AndroidBranchConfigurationProperties = require('./androidBranchConfigurationProperties');

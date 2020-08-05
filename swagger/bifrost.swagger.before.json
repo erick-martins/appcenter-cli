@@ -40694,6 +40694,23 @@
                   "description": "A configured branch name to clone from. If provided, all other parameters will be ignored. Only supported in POST requests.",
                   "type": "string"
                 },
+                "environmentVariables": {
+                  "description": "Environment Variables",
+                  "type": "array",
+                    "items": {
+                      "description": "Environment Variables Items",
+                      "properties": {
+                        "name": {
+                          "description": "Name provided to the environment Variables",
+                          "type": "string"
+                        },
+                        "value": {
+                          "description": "Value provided to the environment Variables",
+                          "type": "string"
+                        }
+                      }
+                    }
+                },
                 "toolsets": {
                   "description": "The branch build configuration for each toolset",
                   "properties": {
@@ -40998,6 +41015,23 @@
                     "cloneFromBranch": {
                       "description": "A configured branch name to clone from. If provided, all other parameters will be ignored. Only supported in POST requests.",
                       "type": "string"
+                    },
+                    "environmentVariables": {
+                      "description": "Environment Variables",
+                      "type": "array",
+                        "items": {
+                          "description": "Environment Variables Items",
+                          "properties": {
+                            "name": {
+                              "description": "Name provided to the environment Variables",
+                              "type": "string"
+                            },
+                            "value": {
+                              "description": "Value provided to the environment Variables",
+                              "type": "string"
+                            }
+                          }
+                        }
                     },
                     "toolsets": {
                       "description": "The branch build configuration for each toolset",
@@ -41325,6 +41359,23 @@
                   "description": "A configured branch name to clone from. If provided, all other parameters will be ignored. Only supported in POST requests.",
                   "type": "string"
                 },
+                "environmentVariables": {
+                  "description": "Environment Variables",
+                  "type": "array",
+                    "items": {
+                      "description": "Environment Variables Items",
+                      "properties": {
+                        "name": {
+                          "description": "Name provided to the environment Variables",
+                          "type": "string"
+                        },
+                        "value": {
+                          "description": "Value provided to the environment Variables",
+                          "type": "string"
+                        }
+                      }
+                    }
+                },
                 "toolsets": {
                   "description": "The branch build configuration for each toolset",
                   "properties": {
@@ -41629,6 +41680,23 @@
                     "cloneFromBranch": {
                       "description": "A configured branch name to clone from. If provided, all other parameters will be ignored. Only supported in POST requests.",
                       "type": "string"
+                    },
+                    "environmentVariables": {
+                      "description": "Environment Variables",
+                      "type": "array",
+                        "items": {
+                          "description": "Environment Variables Items",
+                          "properties": {
+                            "name": {
+                              "description": "Name provided to the environment Variables",
+                              "type": "string"
+                            },
+                            "value": {
+                              "description": "Value provided to the environment Variables",
+                              "type": "string"
+                            }
+                          }
+                        }
                     },
                     "toolsets": {
                       "description": "The branch build configuration for each toolset",
