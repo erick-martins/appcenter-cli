@@ -6897,6 +6897,8 @@ export interface BranchConfigurationToolsets {
    * Build configuration for Android projects
   */
   android?: BranchConfigurationToolsetsAndroid;
+
+  buildscripts?: any;
 }
 
 /**

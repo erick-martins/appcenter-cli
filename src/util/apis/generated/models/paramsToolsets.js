@@ -93,6 +93,8 @@ class ParamsToolsets {
    * @property {string} [android.keystoreFilename] The name of the keystore
    * file
    * @property {string} [android.keystoreEncoded] The keystore encoded value
+   * file
+   * @property {object} [buildscripts] The keystore encoded value
    */
   constructor() {
   }
@@ -141,6 +143,13 @@ class ParamsToolsets {
             type: {
               name: 'Composite',
               className: 'ParamsToolsetsAndroid'
+            }
+          },
+          buildscripts: {
+            required: false,
+            serializedName: 'buildscripts',
+            type: {
+              name: 'any'
             }
           }
         }
