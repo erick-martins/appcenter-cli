@@ -6106,6 +6106,10 @@ export interface JavaScriptToolsetJavascriptSolutionsItem {
   */
   packageJsonPath: string;
   /**
+   * Version of node
+  */
+  nodeVersion?: string;
+  /**
    * Version of React Native from package.json files
   */
   reactNativeVersion?: string;
@@ -6127,6 +6131,10 @@ export interface JavaScriptSolution {
    * The path to the detected package.json
   */
   packageJsonPath: string;
+  /**
+   * Version of node
+  */
+  nodeVersion?: string;
   /**
    * Version of React Native from package.json files
   */
@@ -6293,6 +6301,10 @@ export interface ToolsetProjectsJavascriptJavascriptSolutionsItem {
    * The path to the detected package.json
   */
   packageJsonPath: string;
+  /**
+   * Version of node
+  */
+  nodeVersion?: string;
   /**
    * Version of React Native from package.json files
   */
@@ -43240,6 +43252,10 @@ export interface ListToolsetProjectsOKResponseJavascriptJavascriptSolutionsItem 
    * The path to the detected package.json
   */
   packageJsonPath: string;
+  /**
+   * Version of node
+  */
+  nodeVersion?: string;
   /**
    * Version of React Native from package.json files
   */

@@ -50,6 +50,13 @@ class JavaScriptToolsetJavascriptSolutionsItem {
             type: {
               name: 'String'
             }
+          },
+          nodeVersion: {
+            required: false,
+            serializedName: 'nodeVersion',
+            type: {
+              name: 'String'
+            }
           }
         }
       }
