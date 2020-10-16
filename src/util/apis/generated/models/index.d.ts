@@ -6897,7 +6897,7 @@ export interface BranchConfigurationToolsetsAndroid {
   destinationType?: 'group' | 'store' | 'tester';
   destinations?: [string];
   isSilent?: boolean;
-  destinationSubtype?: 'apple' | 'google';
+  destinationSubtype?: 'apple' | 'googleplay';
   releaseNotes?: string;
  }
 
@@ -7437,7 +7437,7 @@ export interface BranchConfigurationToolsetsDistributionModel {
   destinationType?: 'group' | 'store' | 'tester';
   destinations?: [string];
   isSilent?: boolean;
-  destinationSubtype?: 'apple' | 'google';
+  destinationSubtype?: 'apple' | 'googleplay';
   releaseNotes?: string;
 }
 
@@ -43906,7 +43906,7 @@ export interface ParamsToolsetsDistribution {
   destinationType?: 'group' | 'store' | 'tester';
   destinations?: [string];
   isSilent?: boolean;
-  destinationSubtype?: 'apple' | 'google';
+  destinationSubtype?: 'apple' | 'googleplay';
   releaseNotes?: string;
 }
 
