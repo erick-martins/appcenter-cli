@@ -135,6 +135,14 @@ class BranchConfigurationToolsets {
               className: 'BranchConfigurationToolsetsXamarin'
             }
           },
+          distribution: {
+            required: false,
+            serializedName: 'distribution',
+            type: {
+              name: 'Composite',
+              className: 'BranchConfigurationToolsetDistribution'
+            }
+          },
           android: {
             required: false,
             serializedName: 'android',
