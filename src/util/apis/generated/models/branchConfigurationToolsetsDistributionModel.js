@@ -11,10 +11,11 @@
 'use strict';
 
 /**
- * Class representing a BranchConfigurationToolsetDistribution.
+ * Build configuration for Android projects
+ *
  */
-class BranchConfigurationToolsetDistribution {
-  /**
+class BranchConfigurationToolsetsDistributionModel {
+ /**
    * Create a DistributeInfo.
    * @property {array} [destinations] Array of objects {id:string, type:string}
    * with "id" being the distribution group ID, store ID, or tester email, and
@@ -37,18 +38,18 @@ class BranchConfigurationToolsetDistribution {
   }
 
   /**
-   * Defines the metadata of BranchConfigurationToolsetDistribution
+   * Defines the metadata of BranchConfigurationToolsetsDistributionModel
    *
-   * @returns {object} metadata of BranchConfigurationToolsetDistribution
+   * @returns {object} metadata of BranchConfigurationToolsetsDistributionModel
    *
    */
   mapper() {
     return {
       required: false,
-      serializedName: 'distribution',
+      serializedName: 'BranchConfigurationToolsets_Distribution',
       type: {
         name: 'Composite',
-        className: 'BranchConfigurationToolsetDistribution',
+        className: 'BranchConfigurationToolsetsDistributionModel',
         modelProperties: {
           destinations: {
             required: false,
@@ -56,11 +57,8 @@ class BranchConfigurationToolsetDistribution {
             type: {
               name: 'Sequence',
               element: {
-                  required: false,
-                  serializedName: 'DistributeInfoDestinationsItemElementType',
                   type: {
-                    name: 'Composite',
-                    className: 'DistributeInfoDestinationsItem'
+                    name: 'String',
                   }
               }
             }
@@ -107,4 +105,4 @@ class BranchConfigurationToolsetDistribution {
   }
 }
 
-module.exports = DistributeInfo;
+module.exports = BranchConfigurationToolsetsDistributionModel;

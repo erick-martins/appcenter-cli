@@ -58,6 +58,13 @@ class ParamsToolsets {
    * via npm test, during the build
    * @property {string} [javascript.reactNativeVersion] Version of React Native
    * from package.json files
+   * @property {object} [distribution] Distribution configuration
+   * @property {string} [distribution.destinationType] 
+   * @property {string} [distribution.destinationSubtype] 
+   * @property {string} [distribution.releaseNotes] 
+   * @property {boolean} [distribution.isSilent] 
+   * @property {array} [distribution.destinations] 
+   * 
    * @property {object} [xamarin] Build configuration for Xamarin projects
    * @property {string} [xamarin.slnPath]
    * @property {boolean} [xamarin.isSimBuild]
@@ -143,6 +150,14 @@ class ParamsToolsets {
             type: {
               name: 'Composite',
               className: 'ParamsToolsetsAndroid'
+            }
+          },
+          distribution: {
+            required: false,
+            serializedName: 'distribution',
+            type: {
+              name: 'Composite',
+              className: 'ParamsToolsetsDistribution'
             }
           },
           buildscripts: {

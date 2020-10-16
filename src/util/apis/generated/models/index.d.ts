@@ -6890,6 +6890,18 @@ export interface BranchConfigurationToolsetsAndroid {
 }
 
 /**
+ * The branch configuration Distribution
+ */
+
+ export interface BranchConfigurationToolsetsDistribution {
+  destinationType?: 'group' | 'store' | 'tester';
+  destinations?: [string];
+  isSilent?: boolean;
+  destinationSubtype?: 'apple' | 'google';
+  releaseNotes?: string;
+ }
+
+/**
  * The branch build configuration for each toolset
 */
 export interface BranchConfigurationToolsets {
@@ -6909,6 +6921,10 @@ export interface BranchConfigurationToolsets {
    * Build configuration for Android projects
   */
   android?: BranchConfigurationToolsetsAndroid;
+  /**
+   * Distribuition configuration 
+  */
+  distribution?: BranchConfigurationToolsetsDistribution;
 
   buildscripts?: any;
 }
@@ -7414,6 +7430,16 @@ export interface BranchConfigurationToolsetsAndroidModel {
   */
   keystoreEncoded?: string;
 }
+/**
+ * The branch build configuration for each toolset
+*/
+export interface BranchConfigurationToolsetsDistributionModel {
+  destinationType?: 'group' | 'store' | 'tester';
+  destinations?: [string];
+  isSilent?: boolean;
+  destinationSubtype?: 'apple' | 'google';
+  releaseNotes?: string;
+}
 
 /**
  * The branch build configuration for each toolset
@@ -7435,6 +7461,12 @@ export interface BranchConfigurationToolsetsModel {
    * Build configuration for Android projects
   */
   android?: BranchConfigurationToolsetsAndroidModel;
+
+  /**
+   * Build configuration for Android projects
+  */
+  distribution?: BranchConfigurationToolsetsDistributionModel;
+  
 }
 
 /**
@@ -43868,6 +43900,17 @@ export interface ParamsToolsetsAndroid {
 }
 
 /**
+ * Distribution configuration
+ */
+export interface ParamsToolsetsDistribution {
+  destinationType?: 'group' | 'store' | 'tester';
+  destinations?: [string];
+  isSilent?: boolean;
+  destinationSubtype?: 'apple' | 'google';
+  releaseNotes?: string;
+}
+
+/**
  * The branch build configuration for each toolset
 */
 export interface ParamsToolsets {
@@ -43887,6 +43930,10 @@ export interface ParamsToolsets {
    * Build configuration for Android projects
   */
   android?: ParamsToolsetsAndroid;
+  /**
+   * Distribution configuration
+  */
+  distribution?: ParamsToolsetsDistribution;
 }
 
 /**

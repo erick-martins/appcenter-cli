@@ -38964,6 +38964,31 @@
                             }
                           }
                         },
+                        "distribution": {
+                          "description": "distribution",
+                          "properties": {
+                            "destinationType": {
+                              "description": "destinationType",
+                              "type": "string"
+                            },
+                            "destinationSubtype": {
+                              "description": "destinationType",
+                              "type": "string"
+                            },
+                            "destinations": {
+                              "description": "destinations",
+                              "type": "array"
+                            },
+                            "isSilent": {
+                              "description": "isSilent",
+                              "type": "boolean"
+                            },
+                            "releaseNotes": {
+                              "description": "releaseNotes",
+                              "type": "string"
+                            }
+                          }
+                        },
                         "xamarin": {
                           "description": "Build configuration for Xamarin projects",
                           "properties": {

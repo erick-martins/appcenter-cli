@@ -142,6 +142,14 @@ class BranchConfigurationToolsetsModel {
               name: 'Composite',
               className: 'BranchConfigurationToolsetsAndroidModel'
             }
+          },
+          distribution: {
+            required: false,
+            serializedName: 'distribution',
+            type: {
+              name: 'Composite',
+              className: 'BranchConfigurationToolsetsDistributionModel'
+            }
           }
         }
       }

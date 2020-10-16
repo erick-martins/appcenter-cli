@@ -17,8 +17,7 @@
 class Params {
   /**
    * Create a Params.
-   * @property {string} [trigger] Possible values include: 'continous',
-   * 'continuous', 'manual'
+   * @property {string} [trigger] Possible values include: 'continous', 'continuous', 'manual'
    * @property {boolean} [testsEnabled]
    * @property {boolean} [badgeIsEnabled]
    * @property {boolean} [signed]
@@ -72,6 +71,12 @@ class Params {
    * unit tests, via npm test, during the build
    * @property {string} [toolsets.javascript.reactNativeVersion] Version of
    * React Native from package.json files
+   * @property {object} [toolsets.distribution] Distribution configuration
+   * @property {string} [toolsets.distribution.destinationType] 
+   * @property {string} [toolsets.distribution.destinationSubtype] 
+   * @property {string} [toolsets.distribution.releaseNotes] 
+   * @property {boolean} [toolsets.distribution.isSilent] 
+   * @property {array} [toolsets.distribution.destinations] 
    * @property {object} [toolsets.xamarin] Build configuration for Xamarin
    * projects
    * @property {string} [toolsets.xamarin.slnPath]

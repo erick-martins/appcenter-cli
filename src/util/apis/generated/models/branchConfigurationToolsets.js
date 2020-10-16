@@ -140,7 +140,7 @@ class BranchConfigurationToolsets {
             serializedName: 'distribution',
             type: {
               name: 'Composite',
-              className: 'BranchConfigurationToolsetDistribution'
+              className: 'BranchConfigurationToolsetsDistribution'
             }
           },
           android: {
