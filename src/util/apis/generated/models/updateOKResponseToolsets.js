@@ -85,6 +85,7 @@ class UpdateOKResponseToolsets {
    * @property {boolean} [android.runLint] Whether to run lint checks during
    * the build (default)
    * @property {boolean} [android.isRoot] Whether it is the root module or not
+   * @property {boolean} [android.buildBundle]
    * @property {boolean} [android.automaticSigning] Whether to apply automatic
    * signing or not
    * @property {string} [android.keystorePassword] The password of the keystore

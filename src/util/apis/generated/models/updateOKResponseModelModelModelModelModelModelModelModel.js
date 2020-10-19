@@ -100,6 +100,7 @@ class UpdateOKResponseModelModelModelModelModelModelModelModel {
    * during the build (default)
    * @property {boolean} [toolsets.android.isRoot] Whether it is the root
    * module or not
+   * @property {boolean} [toolsets.android.buildBundle]
    * @property {boolean} [toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    * @property {string} [toolsets.android.keystorePassword] The password of the

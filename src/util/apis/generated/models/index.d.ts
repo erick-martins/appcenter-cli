@@ -6868,6 +6868,10 @@ export interface BranchConfigurationToolsetsAndroid {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -7180,6 +7184,10 @@ export interface BranchConfigurationWithIdToolsetsAndroid {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -7410,6 +7418,10 @@ export interface BranchConfigurationToolsetsAndroidModel {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -7604,6 +7616,10 @@ export interface AndroidBranchConfigurationProperties {
    * Whether to apply automatic signing or not
   */
   automaticSigning?: boolean;
+  /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
   /**
    * The password of the keystore
   */
@@ -43615,6 +43631,10 @@ export interface GetOKResponseToolsetsAndroid {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -43878,6 +43898,10 @@ export interface ParamsToolsetsAndroid {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -44130,6 +44154,10 @@ export interface CreateOKResponseToolsetsAndroid {
   */
   automaticSigning?: boolean;
   /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
+  /**
    * The password of the keystore
   */
   keystorePassword?: string;
@@ -44359,6 +44387,10 @@ export interface UpdateOKResponseToolsetsAndroid {
    * Whether to apply automatic signing or not
   */
   automaticSigning?: boolean;
+  /**
+   * Build bundle 
+  */
+  buildBundle?: boolean;
   /**
    * The password of the keystore
   */

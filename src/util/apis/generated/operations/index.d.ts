@@ -21249,6 +21249,7 @@ export interface BranchConfigurations {
      * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
      * module or not
      *
+     * @param {boolean} [params.toolsets.android.buildBundle]
      * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
      * automatic signing or not
      *
@@ -21431,6 +21432,7 @@ export interface BranchConfigurations {
      * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
      * module or not
      *
+     * @param {boolean} [params.toolsets.android.buildBundle]
      * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
      * automatic signing or not
      *
@@ -21633,6 +21635,7 @@ export interface BranchConfigurations {
      * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
      * module or not
      *
+     * @param {boolean} [params.toolsets.android.buildBundle]
      * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
      * automatic signing or not
      *
@@ -21815,6 +21818,7 @@ export interface BranchConfigurations {
      * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
      * module or not
      *
+     * @param {boolean} [params.toolsets.android.buildBundle]
      * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
      * automatic signing or not
      *

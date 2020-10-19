@@ -38,6 +38,7 @@ class BranchConfigurationToolsets {
    * @property {string} [xcode.provisioningProfileFilename]
    * @property {string} [xcode.certificateFilename]
    * @property {string} [xcode.teamId]
+   * @property {boolean} [xcode.buildBundle]
    * @property {boolean} [xcode.automaticSigning]
    * @property {string} [xcode.xcodeProjectSha] The selected pbxproject hash to
    * the repositroy
@@ -85,6 +86,7 @@ class BranchConfigurationToolsets {
    * @property {boolean} [android.runLint] Whether to run lint checks during
    * the build (default)
    * @property {boolean} [android.isRoot] Whether it is the root module or not
+   * @property {boolean} [android.buildBundle]
    * @property {boolean} [android.automaticSigning] Whether to apply automatic
    * signing or not
    * @property {string} [android.keystorePassword] The password of the keystore

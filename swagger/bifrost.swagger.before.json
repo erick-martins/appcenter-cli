@@ -40429,6 +40429,9 @@
                             "automaticSigning": {
                               "type": "boolean"
                             },
+                            "buildBundle": {
+                              "type": "boolean"
+                            },
                             "xcodeProjectSha": {
                               "type": "string",
                               "description": "The selected pbxproject hash to the repositroy"
@@ -40558,6 +40561,10 @@
                             },
                             "automaticSigning": {
                               "description": "Whether to apply automatic signing or not",
+                              "type": "boolean"
+                            },
+                            "buildBundle": {
+                              "description": "Build bundle version",
                               "type": "boolean"
                             },
                             "keystorePassword": {
@@ -40818,6 +40825,9 @@
                         "automaticSigning": {
                           "type": "boolean"
                         },
+                        "buildBundle": {
+                          "type": "boolean"
+                        },
                         "xcodeProjectSha": {
                           "type": "string",
                           "description": "The selected pbxproject hash to the repositroy"
@@ -40922,6 +40932,10 @@
                         },
                         "automaticSigning": {
                           "description": "Whether to apply automatic signing or not",
+                          "type": "boolean"
+                        },
+                        "buildBundle": {
+                          "description": "Build bundle version",
                           "type": "boolean"
                         },
                         "keystorePassword": {
@@ -41140,6 +41154,9 @@
                             "automaticSigning": {
                               "type": "boolean"
                             },
+                            "buildBundle": {
+                              "type": "boolean"
+                            },
                             "xcodeProjectSha": {
                               "type": "string",
                               "description": "The selected pbxproject hash to the repositroy"
@@ -41244,6 +41261,10 @@
                             },
                             "automaticSigning": {
                               "description": "Whether to apply automatic signing or not",
+                              "type": "boolean"
+                            },
+                            "buildBundle": {
+                              "description": "Build bundle version",
                               "type": "boolean"
                             },
                             "keystorePassword": {
@@ -41483,6 +41504,9 @@
                         "automaticSigning": {
                           "type": "boolean"
                         },
+                        "buildBundle": {
+                          "type": "boolean"
+                        },
                         "xcodeProjectSha": {
                           "type": "string",
                           "description": "The selected pbxproject hash to the repositroy"
@@ -41587,6 +41611,10 @@
                         },
                         "automaticSigning": {
                           "description": "Whether to apply automatic signing or not",
+                          "type": "boolean"
+                        },
+                        "buildBundle": {
+                          "description": "Build bundle version",
                           "type": "boolean"
                         },
                         "keystorePassword": {
@@ -41805,6 +41833,9 @@
                             "automaticSigning": {
                               "type": "boolean"
                             },
+                            "buildBundle": {
+                              "type": "boolean"
+                            },
                             "xcodeProjectSha": {
                               "type": "string",
                               "description": "The selected pbxproject hash to the repositroy"
@@ -41909,6 +41940,10 @@
                             },
                             "automaticSigning": {
                               "description": "Whether to apply automatic signing or not",
+                              "type": "boolean"
+                            },
+                            "buildBundle": {
+                              "description": "Build bundle version",
                               "type": "boolean"
                             },
                             "keystorePassword": {
@@ -61368,6 +61403,9 @@
                 "automaticSigning": {
                   "type": "boolean"
                 },
+                "buildBundle": {
+                  "type": "boolean"
+                },
                 "xcodeProjectSha": {
                   "type": "string",
                   "description": "The selected pbxproject hash to the repositroy"
@@ -61472,6 +61510,10 @@
                 },
                 "automaticSigning": {
                   "description": "Whether to apply automatic signing or not",
+                  "type": "boolean"
+                },
+                "buildBundle": {
+                  "description": "Build bundle version",
                   "type": "boolean"
                 },
                 "keystorePassword": {
@@ -61735,6 +61777,9 @@
                     "automaticSigning": {
                       "type": "boolean"
                     },
+                    "buildBundle": {
+                      "type": "boolean"
+                    },
                     "xcodeProjectSha": {
                       "type": "string",
                       "description": "The selected pbxproject hash to the repositroy"
@@ -61839,6 +61884,10 @@
                     },
                     "automaticSigning": {
                       "description": "Whether to apply automatic signing or not",
+                      "type": "boolean"
+                    },
+                    "buildBundle": {
+                      "description": "Build bundle version",
                       "type": "boolean"
                     },
                     "keystorePassword": {
@@ -62006,6 +62055,9 @@
             "automaticSigning": {
               "type": "boolean"
             },
+            "buildBundle": {
+              "type": "boolean"
+            },
             "xcodeProjectSha": {
               "type": "string",
               "description": "The selected pbxproject hash to the repositroy"
@@ -62110,6 +62162,10 @@
             },
             "automaticSigning": {
               "description": "Whether to apply automatic signing or not",
+              "type": "boolean"
+            },
+            "buildBundle": {
+              "description": "Build bundle version",
               "type": "boolean"
             },
             "keystorePassword": {
@@ -62227,6 +62283,9 @@
         "automaticSigning": {
           "type": "boolean"
         },
+        "buildBundle": {
+          "type": "boolean"
+        },
         "xcodeProjectSha": {
           "type": "string",
           "description": "The selected pbxproject hash to the repositroy"
@@ -62278,6 +62337,10 @@
         },
         "automaticSigning": {
           "description": "Whether to apply automatic signing or not",
+          "type": "boolean"
+        },
+        "buildBundle": {
+          "description": "Build bundle version",
           "type": "boolean"
         },
         "keystorePassword": {

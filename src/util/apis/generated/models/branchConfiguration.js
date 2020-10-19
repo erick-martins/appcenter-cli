@@ -51,6 +51,7 @@ class BranchConfiguration {
    * @property {string} [toolsets.xcode.certificateFilename]
    * @property {string} [toolsets.xcode.teamId]
    * @property {boolean} [toolsets.xcode.automaticSigning]
+   * @property {boolean} [toolsets.xcode.buildBundle]
    * @property {string} [toolsets.xcode.xcodeProjectSha] The selected
    * pbxproject hash to the repositroy
    * @property {string} [toolsets.xcode.archiveConfiguration] The build
@@ -101,6 +102,7 @@ class BranchConfiguration {
    * during the build (default)
    * @property {boolean} [toolsets.android.isRoot] Whether it is the root
    * module or not
+   * @property {boolean} [toolsets.android.buildBundle]
    * @property {boolean} [toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    * @property {string} [toolsets.android.keystorePassword] The password of the

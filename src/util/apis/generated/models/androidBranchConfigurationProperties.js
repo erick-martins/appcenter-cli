@@ -100,6 +100,13 @@ class AndroidBranchConfigurationProperties {
               name: 'Boolean'
             }
           },
+          buildBundle: {
+            required: false,
+            serializedName: 'buildBundle',
+            type: {
+              name: 'Boolean'
+            }
+          },
           keystorePassword: {
             required: false,
             serializedName: 'keystorePassword',

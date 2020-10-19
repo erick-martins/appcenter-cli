@@ -25,6 +25,7 @@ class ParamsToolsetsAndroid {
    * @property {boolean} [runLint] Whether to run lint checks during the build
    * (default)
    * @property {boolean} [isRoot] Whether it is the root module or not
+   * @property {boolean} [buildBundle]
    * @property {boolean} [automaticSigning] Whether to apply automatic signing
    * or not
    * @property {string} [keystorePassword] The password of the keystore
@@ -89,6 +90,13 @@ class ParamsToolsetsAndroid {
           isRoot: {
             required: false,
             serializedName: 'isRoot',
+            type: {
+              name: 'Boolean'
+            }
+          },
+          buildBundle: {
+            required: false,
+            serializedName: 'buildBundle',
             type: {
               name: 'Boolean'
             }

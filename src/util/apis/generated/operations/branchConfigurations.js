@@ -289,6 +289,7 @@ function _get(branch, ownerName, appName, options, callback) {
  * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
  * module or not
  *
+ * @param {boolean} [params.toolsets.android.buildBundle]
  * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
  * automatic signing or not
  *
@@ -594,6 +595,7 @@ function _create(branch, params, ownerName, appName, options, callback) {
  * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
  * module or not
  *
+ * @param {boolean} [params.toolsets.android.buildBundle]
  * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
  * automatic signing or not
  *
@@ -1159,6 +1161,7 @@ class BranchConfigurations {
    * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
    * module or not
    *
+   * @param {boolean} [params.toolsets.android.buildBundle]
    * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    *
@@ -1353,6 +1356,7 @@ class BranchConfigurations {
    * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
    * module or not
    *
+   * @param {boolean} [params.toolsets.android.buildBundle]
    * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    *
@@ -1570,6 +1574,7 @@ class BranchConfigurations {
    * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
    * module or not
    *
+   * @param {boolean} [params.toolsets.android.buildBundle]
    * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    *
@@ -1764,6 +1769,7 @@ class BranchConfigurations {
    * @param {boolean} [params.toolsets.android.isRoot] Whether it is the root
    * module or not
    *
+   * @param {boolean} [params.toolsets.android.buildBundle]
    * @param {boolean} [params.toolsets.android.automaticSigning] Whether to apply
    * automatic signing or not
    *
